@@ -1,3 +1,4 @@
+Note: all the projects are in the master branch
 Game Projects Collection
 Welcome to the Game Projects Collection! This repository contains three basic web-based games, each built with HTML, CSS, and JavaScript. Explore the games and see how simple web technologies can be used to create engaging and interactive experiences.
 
