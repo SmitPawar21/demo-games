@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>GUESS A NUMBER</h1>
+
+    <div class="gameinfo">
+        <p>guess a number between 1 to 100. You will get 6 chances.</p>
+    </div>
+
+    <div class="input_box">
+        <input type="number" id="numGuess"  placeholder="enter a number">
+        <div class="chances">
+            <span>Chance left: </span>
+            <p id="chanceText">6</p>
+        </div>
+        <button class="sub_but">submit</button>
+    </div>
+    
+    <button class="messageBox"></button>
+
+
+    <div class="gamedata">
+        <div class="guesses">
+            <span>Your guesses: </span>
+            <div id="guessArray"></div>
+        </div>
+        <div class="buttons">
+            <button class="ref_but">refresh</button>
+            <button class="play_but">play</button>
+        </div>
+    </div>
+
+    <div class="result">
+        <p id="resultText">YOU WON</p>
+        <button class="goback">Go Back</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
